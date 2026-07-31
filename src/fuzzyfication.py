@@ -70,7 +70,7 @@ class fuzzyfication():
         if method == "weightedMean":
             values = np.array(values)
             sumOfActivations = np.sum(np.array(list(results.values())))
-            r = np.array(list(results.values())) / sumOfActivations * values
+            r = np.where(sumOfActivations != 0, np.array(list(results.values())) / sumOfActivations * values, values / values.shape[0])
             return np.sum(r) 
         else:
             raise ValueError("Use one of minOfMax or weightedMean.")
