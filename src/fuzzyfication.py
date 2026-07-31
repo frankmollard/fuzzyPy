@@ -66,7 +66,7 @@ class fuzzyfication():
         if method == "minOfMax":
             whereMaxima = np.where(np.array(list(results.values())) == np.max(np.array(list(results.values()))))[0]
             values = np.array(values)
-            return values[whereMaxima]
+            return np.min(values[whereMaxima])
         if method == "weightedMean":
             values = np.array(values)
             r = np.array(list(results.values())) * values
