@@ -4,6 +4,23 @@ This repository provides tools to fuzzify and defuzzify ordinal data.
 
 Fuzzy logic is similar to Boolean logic, but instead of only using `False = 0` and `True = 1`, it allows all values between `0` and `1`. This makes it possible to model smooth transitions instead of hard thresholds.
 
+## Installation
+
+First, you need to install the git package for Python so you can then clone the repository and install it:
+
+```python
+import git
+
+repo = git.Repo.clone_from(
+    "https://github.com/frankmollard/fuzzyPy",
+    "./fuzzyPy"
+)
+
+! pip install -e "./fuzzyPy"
+
+from fuzzyfier import fuzzyfication
+```
+
 ## Fuzzification
 
 For fuzzification, you need a dictionary in the following format:
