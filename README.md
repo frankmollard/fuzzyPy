@@ -12,7 +12,7 @@ Either from PyPi with:
 pip install fuzzyfier
 ```
 
-First, you need to install the git package for Python so you can then clone the repository and install it:
+Or via git:
 
 ```python
 import git
