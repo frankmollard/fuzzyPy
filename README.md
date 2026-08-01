@@ -6,6 +6,12 @@ Fuzzy logic is similar to Boolean logic, but instead of only using `False = 0` a
 
 ## Installation
 
+Either from PyPi with:
+
+```bash
+pip install fuzzyfier
+```
+
 First, you need to install the git package for Python so you can then clone the repository and install it:
 
 ```python
