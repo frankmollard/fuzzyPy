@@ -78,9 +78,7 @@ fuzzyfied1 OR fuzzyfied2 = np.max([
 
 Mathematically:
 
-```math
-fuzzyfied1 \lor fuzzyfied2
-```
+`fuzzyfied1 ∨ fuzzyfied2`
 
 ## Defuzzification
 
