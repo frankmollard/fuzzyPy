@@ -6,10 +6,16 @@ Fuzzy logic is similar to Boolean logic, but instead of only using `False = 0` a
 
 ## Installation
 
-Either from PyPi with:
+Either install the core package from PyPI:
 
 ```bash
 pip install fuzzyfier
+```
+
+For notebook dependencies:
+
+```bash
+pip install "fuzzyfier[notebooks]"
 ```
 
 Or via git:
@@ -95,9 +101,11 @@ This converts the fuzzy rule results back into a single crisp output value.
 
 ## Examples
 
-See also the examples:
+The example notebooks are available in the GitHub repository:
 
 * `smooth trader`
 * `kettle steering`
 * `stock picking` (advanced example)
 * `stock picking simulation`(advanced example 2)
+
+Clone the repository to obtain all notebooks:
