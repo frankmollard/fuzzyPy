@@ -18,7 +18,7 @@ For notebook dependencies:
 pip install "fuzzyfier[notebooks]"
 ```
 
-Or via git:
+Or via git clone:
 
 ```python
 import git
