@@ -65,9 +65,7 @@ fuzzyfied1 AND fuzzyfied2 = np.min([
 
 Mathematically:
 
-```math
-fuzzyfied1 \land fuzzyfied2
-```
+`fuzzyfied1 ∧ fuzzyfied2`
 
 ### OR operation
 
