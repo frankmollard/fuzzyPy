@@ -12,6 +12,10 @@ Either install the core package from PyPI:
 pip install fuzzyfier
 ```
 
+```python
+from fuzzyfier import fuzzyfication
+```
+
 For notebook dependencies:
 
 ```bash
