@@ -30,7 +30,7 @@ repo = git.Repo.clone_from(
 
 ! pip install -e "./fuzzyPy"
 
-from fuzzyfier import fuzzyfication
+from fuzzyPy import fuzzyfication
 ```
 
 ## Fuzzification
